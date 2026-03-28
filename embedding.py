@@ -16,7 +16,7 @@ def embed_chunks(chunks):
     for chunk in chunks:
         response = client.models.embed_content(
             model="gemini-embedding-001",   
-            contents=chunk
+            contents=[chunk]
         )
         embeddings.append(response.embeddings[0].values)
 
