@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import streamlit as st
 load_dotenv()
 
-client=genai.Client(api_key = st.secrets["GEMINI_API_KEY"])
+client=genai.Client(api_key = st.secrets["gemini_api_key"])
 
 #for list the available model names
 # for m in client.models.list():

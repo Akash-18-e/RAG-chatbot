@@ -5,7 +5,7 @@ import streamlit as st
 
 load_dotenv()
 
-client = genai.Client(api_key = st.secrets["GEMINI_API_KEY"])
+client = genai.Client(api_key = st.secrets["gemini_api_key"])
 
 def generate_answer(query, retrieved_chunks):
     context = "\n\n".join(retrieved_chunks)
