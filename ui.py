@@ -21,7 +21,7 @@ if "history" not in st.session_state:
     st.session_state.history = []
 
 # Chat input
-query = st.chat_input("Ask something about your PDF...")
+query = st.chat_input("Ask something about HR policies...")
 
 if query:
     # Store user message
