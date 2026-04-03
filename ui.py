@@ -13,7 +13,7 @@ st.sidebar.write("Vector DB: FAISS")
 st.sidebar.write("Embeddings: Gemini Embedding")
 
 # Title
-st.title("📄 Chat with your PDF")
+st.title("📄 Chat Assistant")
 st.write("Ask questions based on HR policy")
 
 # Initialize chat history
