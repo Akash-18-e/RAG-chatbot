@@ -54,9 +54,9 @@ for role, message in st.session_state.history:
             st.write(message)
 
 # Show sources for last question
-if "last_sources" in st.session_state:
-    with st.expander("📚 Source Chunks (Click to view)"):
-        for i, chunk in enumerate(st.session_state.last_sources):
-            st.write(f"**Chunk {i+1}:**")
-            st.write(chunk)
-            st.divider()
+# if "last_sources" in st.session_state:
+#     with st.expander("📚 Source Chunks (Click to view)"):
+#         for i, chunk in enumerate(st.session_state.last_sources):
+#             st.write(f"**Chunk {i+1}:**")
+#             st.write(chunk)
+#             st.divider()
