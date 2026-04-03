@@ -14,7 +14,7 @@ st.sidebar.write("Embeddings: Gemini Embedding")
 
 # Title
 st.title("📄 Chat with your PDF")
-st.write("Ask questions based on your document")
+st.write("Ask questions based on HR policy")
 
 # Initialize chat history
 if "history" not in st.session_state:
